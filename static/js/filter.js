@@ -62,6 +62,8 @@ function demoBar(id_val) {
 
         const obj = sample
         // replacekeys function to replace keys with text 
+
+        // Reference http://www.4codev.com/javascript/rename-all-object-keys-of-an-array-using-javascript-idpx2458097450239050230.html
         const replaceKeys = (arr, obj) => {
             const keys = Object.keys(obj);
             const res = {};
