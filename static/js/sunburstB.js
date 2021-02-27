@@ -1,4 +1,6 @@
-
+//=========================================================================
+//Credit https://github.com/vasturiano/sunburst-chart for sunburst js code
+//=========================================================================
 
 var total = sbData['total'];
 var _total = [total[1], total[3], total[5]];
