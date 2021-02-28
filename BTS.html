@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- #--------------------------Visual divider--------------------------------------# -->
+<!-- #-------------------------- Head --------------------------------------# -->
 
 <head>
 
@@ -12,14 +12,13 @@
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" type="text/css" href="style.css">
-    
-  <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
-  <script src="https://d3js.org/d3.v6.min.js"></script>
+  
+
 </head>
 
 <!-- #-------------------------- Head --------------------------------------# -->
+
 
 <!-- #nav bar template pulled from bootswatch# -->
 <body>
@@ -54,38 +53,23 @@
       </ul>
     </div>
   </nav>
-<!-- #--------------------------Navbar--------------------------------------# -->
+  <!-- #--------------------------Navbar--------------------------------------# -->
 
-<!-- #--------------------------Main--------------------------------------# -->
-  <div class="jumbotron bg-dark">
-    <h1 class="display-3">A look in to University Economics</h1>
-    <p class="lead">
-    <hr class="my-5"> 
-    <p class="lead">Does the price of tuition affect the overall enrollment of public and private universities?</p>
-    <hr class="my-3">
-    <div id="plotJon"></div>
-    <hr class="my-3">
-    <br>
-    <h1 class="display-3"style="font-size: 200%;">Public Vs. Private:</h1>
-    <p class="lead"> Two-year Public tuition: Increased minimally throughout the years displayed rate generally staying under 11k.</p>
-    <hr class="my-3">
-    <p class="lead"> Two-year Private tuition: Had a slight decrease between 2010 and 2011. Then remained mostly consistent in 2012 and 2017, with an increase in 2018 and again in 2019.</p>
-    <hr class="my-3">
-    <p class="lead">Four-year Public tuition: A slight peak in 2019, four-year public education stays under 20k. The lowest tuition rate occurred in 2010, with a tuition estimate of around 15K.</p>
-    <hr class="my-3">
-    <p class="lead">Four-year Private tuition: Private tuition doubles public tuition, similar to two-year public and private education, which the differences surpass by more than double. Private tuition shows a gradual increase throughout the years.</p>
+  <!-- #--------------------------Main--------------------------------------# -->
+
+  <div class="container bg-dark">
+ 
   </div>
+
   <!-- #--------------------------Main--------------------------------------# -->
  
 
   <!-- #--------------------------Scripts--------------------------------------# -->
-  <script src="dataJon.js"></script>
-  <script src="graph.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+  <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
   <!-- #--------------------------Scripts--------------------------------------# -->
-
 </body>
 
-</html>

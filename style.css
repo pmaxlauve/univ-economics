@@ -18,6 +18,8 @@ h3{
   color: rgb(10, 48, 35);
   background-color: gray;
   font-size: 30px;
+  text-align: center;
+  max-width: auto;
 }
 .lead{
   text-align: center;
@@ -40,6 +42,18 @@ body{
 
 .sunburst-tooltip {
   max-width: 100%;
+}
+
+.panel-heading{
+  width: fit-content;
+  text-align: center;
+  padding-right: auto;
+}
+
+.panel-body{
+  background-color:#31969785;
+  text-align: center;
+
 }
 
 
