@@ -15,7 +15,7 @@
 
   <link rel="stylesheet"  type="text/css" href="style.css">
   <script src="//unpkg.com/sunburst-chart"></script>
-    
+  <script src="https://d3js.org/d3.v5.min.js"></script>
 
 </head>
 
@@ -36,38 +36,48 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sunburst.html">Employment</a>
+          <a class="nav-link" href="sunburst.html">Employment vs Gender</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sunburstB.html">Employment vs Race</a>
         </li>
         <li class="nav-item">
             <a class="nav-link" href="PrivatevsPublic.html">Private Vs Public</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="filter.html">Tuition Exploration</a>
-      </li>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="BTS.html">Behind the Scenes</a>
+        </li>
       </ul>
     </div>
   </nav>
 
   <div class="jumbotron bg-dark">
-    <h1 class="display-3">Employment in a Burst</h1>
+    <h1 class="display-3">Employment in a Burst "Gender"</h1>
     <hr class="my-5"> 
     <hr class="my-3">
     <p class="lead">What is the relationship between employment and education attained?</p>
     <hr class="my-3">
     <p class="lead">Does the price of tuition affect the overall enrollment of public and private universities?</p>
     <hr class="my-3">
+    <p class="lead">To Navigate: <br>
+      Click any slice to expand it and its subcategories.  To go back one level, click the center of the visualization.</p>
+    <hr class="my-3">
     <div id="chart"></div>
     <hr class="my-3">
-    <p class= "lead">The result we can see here is:</p>
+    <p class= "lead">Employment Status based on Education Level (Gender): <br>
+      The visualization above shows the employment status of the 2019 US labor force based on education level and gender.  Each level of the sunburst represents a unique categorical set. 
+      Each slice of each layer represents represents a specific subcategory from the parent category (one level interior).  The size of the slice varies based on the percent of the labor force it represents. 
+      You can see the percent value as well as a brief description in each slice (you will also see this information as a tooltip when hovering over it).</p>
   </div>
 
 
 
 
-  <script src="data.js"></script>
-  <script src="sunburst.js"></script>
-
-  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+  <script src="static/data/data.js"></script>
+  <script src="static/js/sunburstA.js"></script>
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>

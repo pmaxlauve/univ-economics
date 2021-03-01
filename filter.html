@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
-<!-- #--------------------------Visual divider--------------------------------------# -->
+<!-- #-------------------------- Head --------------------------------------# -->
 
 <head>
 
@@ -12,13 +12,14 @@
   <!-- Bring in our bootstrap stylesheet -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
   integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
   <link rel="stylesheet" type="text/css" href="style.css">
   
 
 </head>
 
-<!-- #--------------------------Visual divider--------------------------------------# -->
+<!-- #-------------------------- Head --------------------------------------# -->
+
+
 <!-- #nav bar template pulled from bootswatch# -->
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -35,34 +36,48 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="sunburst.html">Employment</a>
+          <a class="nav-link" href="sunburst.html">Employment vs Gender</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="PrivatevsPublic.html">Private Vs Public</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="filter.html">Tuition Exploration</a>
-    </li>
+          <a class="nav-link" href="sunburstB.html">Employment vs Race</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="PrivatevsPublic.html">Private Vs Public</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="filter.html">Tuition Exploration</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="BTS.html">Behind the Scenes</a>
+        </li>
       </ul>
     </div>
   </nav>
+  <!-- #--------------------------Navbar--------------------------------------# -->
 
-  <div class="container">
+  <!-- #--------------------------Main--------------------------------------# -->
+
+  <div class="container bg-dark">
     <div class="row">
-      <div class="col-md-12 jumbotron text-center">
-        <h1>Employment and Tuition Dashboard</h1>
-        <p>Use the interactive charts below to explore the dataset</p>
+      <div class="col-md-12 jumbotron bg-dark text-center">
+        <hr class="my-3">
+        <h1 class="display-3">Employment and Tuition Dashboard</h1>
+        <p class="lead">Use the drop down tab to Select a year's dataset to explore.
+          <br>
+          See the guage to see the average tuition cost of a four year university during the given year.
+        </p>
+        <hr class="my-3">
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>Employment Year:</h5>
+      <div class="col-md-3">
+        <div class="well ">
+          <h3 class="panel-title">Employment Year:</h5>
           <select id="selDataset" onchange="optionChanged(this.value)"></select>
         </div>
         <div class="panel panel-primary">
           <div class="panel-heading">
-            <h3 class="panel-title">Employment Info</h3>
+            <h3 class="panel-title">Employment Info:</h3>
           </div>
           <div id="sample-metadata" class="panel-body"></div>
           <p></p>>
@@ -70,10 +85,12 @@
       </div>
       <div class="col-md-5">
         <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
+      <div class="col-md-4"></div>
+      <br></html>
+      <div class=“col-md-3”>
         <div id="gauge"></div>
       </div>
+    </div>
     </div>
     <div class="row">
       <div class="col-md-12">
@@ -82,9 +99,19 @@
     </div>
   </div>
 
+  <!-- #--------------------------Main--------------------------------------# -->
+ 
+
+  <!-- #--------------------------Scripts--------------------------------------# -->
+
   <script src="https://d3js.org/d3.v6.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="filter.js"></script>
+  <script src="static/js/filter.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+  <!-- #--------------------------Scripts--------------------------------------# -->
 </body>
 
