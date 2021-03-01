@@ -34,38 +34,38 @@ var colors = ["#B4D8C9", "#3f3650", "#d65858",
 
 
 const data = {
-    name: '2019 US Employment by Gender',
+    name: '2019 US Employment by Gender', //level 1
     color: colors[0],
     children: [{
-      name: `Employed (${(100*_total[1].total/_total[0].total).toFixed(2)}%)`,
+      name: `Employed (${(100*_total[1].total/_total[0].total).toFixed(2)}%)`, //level 2
       color: colors[1],
       size: _total[1].total,
       children: [{
-        name: `Male (${(100*_men[1].total/_total[0].total).toFixed(2)}%)`,
+        name: `Male (${(100*_men[1].total/_total[0].total).toFixed(2)}%)`, //level 3
         color: colors[3],
         size: _men[1].total,
         children: [{
-          name: `< HS Diploma (${(100*_men[1].less_hs/_total[0].total).toFixed(2)}%)`,
+          name: `< HS Diploma (${(100*_men[1].less_hs/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[9],
           size: _men[1].less_hs
         }, {
-          name: `HS Diploma (${(100*_men[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
+          name: `HS Diploma (${(100*_men[1].hs_diploma/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[10],
           size: _men[1].hs_diploma
         }, {
-          name: `Some College (${(100*_men[1].some_college/_total[0].total).toFixed(2)}%)`,
+          name: `Some College (${(100*_men[1].some_college/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[11],
           size: _men[1].some_college
         }, {
-          name: `Associates (${(100*_men[1].associate/_total[0].total).toFixed(2)}%)`,
+          name: `Associates (${(100*_men[1].associate/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[12],
           size: _men[1].associate
         }, {
-          name: `Bachelors (${(100*_men[1].bachelor/_total[0].total).toFixed(2)}%)`,
+          name: `Bachelors (${(100*_men[1].bachelor/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[13],
           size: _men[1].bachelor
         }, {
-          name: `Advanced Degree (${(100*_men[1].adv_degree/_total[0].total).toFixed(2)}%)`,
+          name: `Advanced Degree (${(100*_men[1].adv_degree/_total[0].total).toFixed(2)}%)`, //level 4
           color: colors[14],
           size: _men[1].adv_degree
         }]
@@ -109,7 +109,7 @@ const data = {
         size: _total[2].total,
         children: [
           {
-            name: `Male (${(100*_men[2].total/_total[2].total).toFixed(2)}%)`,
+            name: `Male (${(100*_men[2].total/_total[0].total).toFixed(2)}%)`,
             color: colors[3],
             size: _men[2].total,
             children: [{
@@ -139,7 +139,7 @@ const data = {
             }]
 
           }, {
-            name: `Female (${(100*_women[2].total/_total[2].total).toFixed(2)}%)`,
+            name: `Female (${(100*_women[2].total/_total[0].total).toFixed(2)}%)`,
             color: colors[4],
             size: _women[2].total,
             children: [{
