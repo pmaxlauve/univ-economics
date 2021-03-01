@@ -48,23 +48,23 @@ const data = {
         color: colors[9],
         size: _white[1].less_hs
       }, {
-        name: `< HS Diploma (${(100*_white[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_white[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _white[1].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_white[1].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_white[1].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _white[1].some_college
       }, {
-        name: `< HS Diploma (${(100*_white[1].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_white[1].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _white[1].associate
       }, {
-        name: `< HS Diploma (${(100*_white[1].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_white[1].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _white[1].bachelor
       }, {
-        name: `< HS Diploma (${(100*_white[1].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_white[1].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _white[1].adv_degree
       }]
@@ -77,23 +77,23 @@ const data = {
         color: colors[9],
         size: _black[1].less_hs
       }, {
-        name: `< HS Diploma (${(100*_black[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_black[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _black[1].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_black[1].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_black[1].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _black[1].some_college
       }, {
-        name: `< HS Diploma (${(100*_black[1].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_black[1].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _black[1].associate
       }, {
-        name: `< HS Diploma (${(100*_black[1].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_black[1].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _black[1].bachelor
       }, {
-        name: `< HS Diploma (${(100*_black[1].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_black[1].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _black[1].adv_degree
       }]
@@ -106,23 +106,23 @@ const data = {
         color: colors[9],
         size: _asian[1].less_hs
       }, {
-        name: `< HS Diploma (${(100*_asian[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_asian[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _asian[1].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_asian[1].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_asian[1].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _asian[1].some_college
       }, {
-        name: `< HS Diploma (${(100*_asian[1].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_asian[1].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _asian[1].associate
       }, {
-        name: `< HS Diploma (${(100*_asian[1].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_asian[1].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _asian[1].bachelor
       }, {
-        name: `< HS Diploma (${(100*_asian[1].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_asian[1].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _asian[1].adv_degree
       }]
@@ -135,23 +135,23 @@ const data = {
         color: colors[9],
         size: _hispanic[1].less_hs
       }, {
-        name: `< HS Diploma (${(100*_hispanic[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_hispanic[1].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _hispanic[1].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_hispanic[1].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_hispanic[1].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _hispanic[1].some_college
       }, {
-        name: `< HS Diploma (${(100*_hispanic[1].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_hispanic[1].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _hispanic[1].associate
       }, {
-        name: `< HS Diploma (${(100*_hispanic[1].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_hispanic[1].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _hispanic[1].bachelor
       }, {
-        name: `< HS Diploma (${(100*_hispanic[1].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_hispanic[1].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _hispanic[1].adv_degree
       }]
@@ -169,23 +169,23 @@ const data = {
         color: colors[9],
         size: _white[2].less_hs
       }, {
-        name: `< HS Diploma (${(100*_white[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_white[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _white[2].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_white[2].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_white[2].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _white[2].some_college
       }, {
-        name: `< HS Diploma (${(100*_white[2].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_white[2].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _white[2].associate
       }, {
-        name: `< HS Diploma (${(100*_white[2].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_white[2].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _white[2].bachelor
       }, {
-        name: `< HS Diploma (${(100*_white[2].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_white[2].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _white[2].adv_degree
       }]
@@ -198,23 +198,23 @@ const data = {
         color: colors[9],
         size: _black[2].less_hs
       }, {
-        name: `< HS Diploma (${(100*_black[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_black[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _black[2].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_black[2].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_black[2].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _black[2].some_college
       }, {
-        name: `< HS Diploma (${(100*_black[2].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_black[2].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _black[2].associate
       }, {
-        name: `< HS Diploma (${(100*_black[2].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_black[2].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _black[2].bachelor
       }, {
-        name: `< HS Diploma (${(100*_black[2].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_black[2].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _black[2].adv_degree
       }]
@@ -227,23 +227,23 @@ const data = {
         color: colors[9],
         size: _asian[2].less_hs
       }, {
-        name: `< HS Diploma (${(100*_asian[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_asian[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _asian[2].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_asian[2].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_asian[2].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _asian[2].some_college
       }, {
-        name: `< HS Diploma (${(100*_asian[2].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_asian[2].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _asian[2].associate
       }, {
-        name: `< HS Diploma (${(100*_asian[2].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_asian[2].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _asian[2].bachelor
       }, {
-        name: `< HS Diploma (${(100*_asian[2].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_asian[2].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _asian[2].adv_degree
       }]
@@ -256,23 +256,23 @@ const data = {
         color: colors[9],
         size: _hispanic[2].less_hs
       }, {
-        name: `< HS Diploma (${(100*_hispanic[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
+        name: `HS Diploma (${(100*_hispanic[2].hs_diploma/_total[0].total).toFixed(2)}%)`,
         color: colors[10],
         size: _hispanic[2].hs_diploma
       }, {
-        name: `< HS Diploma (${(100*_hispanic[2].some_college/_total[0].total).toFixed(2)}%)`,
+        name: `Some College (${(100*_hispanic[2].some_college/_total[0].total).toFixed(2)}%)`,
         color: colors[11],
         size: _hispanic[2].some_college
       }, {
-        name: `< HS Diploma (${(100*_hispanic[2].associate/_total[0].total).toFixed(2)}%)`,
+        name: `Associates (${(100*_hispanic[2].associate/_total[0].total).toFixed(2)}%)`,
         color: colors[12],
         size: _hispanic[2].associate
       }, {
-        name: `< HS Diploma (${(100*_hispanic[2].bachelor/_total[0].total).toFixed(2)}%)`,
+        name: `Bachelors (${(100*_hispanic[2].bachelor/_total[0].total).toFixed(2)}%)`,
         color: colors[13],
         size: _hispanic[2].bachelor
       }, {
-        name: `< HS Diploma (${(100*_hispanic[2].adv_degree/_total[0].total).toFixed(2)}%)`,
+        name: `Advanced Degree (${(100*_hispanic[2].adv_degree/_total[0].total).toFixed(2)}%)`,
         color: colors[14],
         size: _hispanic[2].adv_degree
       }]
