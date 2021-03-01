@@ -14,7 +14,7 @@ function optionChanged(id) {
 }
 
 ///Drop Down Filled with values  
-d3.json("data_dump.json").then((importedData) => {
+d3.json("/Resources/data_dump.json").then((importedData) => {
     datayears = importedData.years
 
     console.log(datayears)
@@ -32,7 +32,7 @@ d3.json("data_dump.json").then((importedData) => {
 
 ////////Employment Info//////////
 function demoBar(id_val) {
-    d3.json("data_dump.json").then((data) => {
+    d3.json("/Resources/data_dump.json").then((data) => {
 
         //using D3 bring in metadata
         dataid = data.employment_status
