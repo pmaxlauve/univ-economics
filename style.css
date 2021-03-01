@@ -20,6 +20,13 @@ h3{
   font-size: 30px;
   text-align: center;
   max-width: auto;
+  border-radius: 10px;
+}
+select#selDataset{
+  margin-left: 36%;
+  margin-block-start: 5%;
+  margin-block-end: 5%;
+  border-radius: 10px;
 }
 .lead{
   text-align: center;
@@ -37,6 +44,9 @@ body{
   background-color: rgba(39, 43, 43, 0.925);
 }
 
+.jumbotron{
+  background-color:rgb(44, 89, 116);
+}
 
 /* sunburst graph  */
 
@@ -51,9 +61,28 @@ body{
 }
 
 .panel-body{
+  border-radius: 15px;
   background-color:#31969785;
   text-align: center;
 
 }
 
+.row-U{
+  text-align: center;
+}
+img.resize {
+  max-width:75%;
+  max-height:75%;
+}
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+html{
+  background-color: #343a40!important;
+}
