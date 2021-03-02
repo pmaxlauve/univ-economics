@@ -10,11 +10,11 @@
   <title>University Economics</title>
 
   <!-- Bring in our bootstrap stylesheet -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
   <link rel="stylesheet" type="text/css" href="style.css">
-    
+
   <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
   <script src="https://d3js.org/d3.v6.min.js"></script>
 </head>
@@ -22,13 +22,15 @@
 <!-- #-------------------------- Head --------------------------------------# -->
 
 <!-- #nav bar template pulled from bootswatch# -->
+
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+      aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="collapse navbar-collapse" id="navbarColor02">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
@@ -43,47 +45,67 @@
           <a class="nav-link" href="sunburstB.html">Employment vs Race</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="PrivatevsPublic.html">Private Vs Public</a>
+          <a class="nav-link" href="PrivatevsPublic.html">Private Vs Public</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="filter.html">Tuition Exploration</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="BTS.html">Behind the Scenes</a>
+          <a class="nav-link" href="BTS.html">Behind the Scenes</a>
         </li>
       </ul>
     </div>
   </nav>
-<!-- #--------------------------Navbar--------------------------------------# -->
+  <!-- #--------------------------Navbar--------------------------------------# -->
 
-<!-- #--------------------------Main--------------------------------------# -->
+  <!-- #--------------------------Main--------------------------------------# -->
   <div class="jumbotron bg-dark">
     <h1 class="display-3">A look in to University Economics</h1>
     <p class="lead">
-    <hr class="my-5"> 
+      <hr class="my-5">
     <p class="lead">Does the price of tuition affect the overall enrollment of public and private universities?</p>
     <hr class="my-3">
     <div id="plotJon"></div>
     <hr class="my-3">
+
+    <hr class="my-3">
+    <div id="plotJon2"></div>
     <br>
-    <h1 class="display-3"style="font-size: 200%;">Public Vs. Private:</h1>
-    <p class="lead"> Two-year Public tuition: Increased minimally throughout the years displayed rate generally staying under 11k.</p>
+    <h1 class="display-3" style="font-size: 200%;">Public Vs. Private:</h1>
+    <p class="lead"> Two-year Public Tuition: Increased minimally throughout the years displayed rate generally staying
+      under 11k. Notice the decline for the two-year Public enrollment.</p>
     <hr class="my-3">
-    <p class="lead"> Two-year Private tuition: Had a slight decrease between 2010 and 2011. Then remained mostly consistent in 2012 and 2017, with an increase in 2018 and again in 2019.</p>
+    <p class="lead"> Two-year Private Tuition: Had a slight decrease between 2010 and 2011. Then remained mostly
+      consistent in 2012 and 2017, with an increase in 2018 and again in 2019. Two-year private enrollment is low and
+      expected to decline.</p>
     <hr class="my-3">
-    <p class="lead">Four-year Public tuition: A slight peak in 2019, four-year public education stays under 20k. The lowest tuition rate occurred in 2010, with a tuition estimate of around 15K.</p>
+    <p class="lead">Four-year Public Tuition: A slight peak in 2019, four-year public education stays under 20k. The
+      lowest tuition rate occurred in 2010, with a tuition estimate of around 15K. Four-year public enrollment has a
+      gradual increase.</p>
     <hr class="my-3">
-    <p class="lead">Four-year Private tuition: Private tuition doubles public tuition, similar to two-year public and private education, which the differences surpass by more than double. Private tuition shows a gradual increase throughout the years.</p>
+    <p class="lead">Four-year Private Tuition: Private tuition doubles public tuition, similar to two-year public and
+      private education, which the differences surpass by more than double. Private tuition shows a gradual increase
+      throughout the years. Four-year private enrollment shows a gradual increase similar to the four-year public
+      enrollment.</p>
+    <hr class="my-3">
+    <div id="plotJon2"></div>
   </div>
   <!-- #--------------------------Main--------------------------------------# -->
- 
+
 
   <!-- #--------------------------Scripts--------------------------------------# -->
   <script src="static/js/dataJon.js"></script>
+  <script src="static/js/data_jon2.js"></script>
   <script src="static/js/graph.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
   <!-- #--------------------------Scripts--------------------------------------# -->
 
 </body>
